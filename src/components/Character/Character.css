@@ -1,0 +1,86 @@
+.character {
+  position: relative;
+  top: 200px;
+  left: 200px;
+  width: 40px;
+  height: 100px;
+  transition: 0.1s top, 0.1s left;
+  /* background: #0006; */
+}
+
+.character > * {
+  position: absolute;
+}
+
+.character > div {
+  background: var(--color);
+}
+
+.characterLabel {
+  /* background: #0004; */
+  width: 100px;
+  height: 1.5rem;
+  top: -1.5rem;
+  left: 50%;
+  translate: -50% 0;
+  color: var(--color);
+  margin: 0;
+  font-size: 1rem;
+  display: block ruby;
+}
+
+.characterHead {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 0;
+  left: 50%;
+  translate: -50% 0;
+}
+.characterBody {
+  height: 50px;
+  width: 7.5px;
+  top: 30px;
+  left: 50%;
+  translate: -50% 0;
+  border-radius: 5px;
+}
+
+.leftArm {
+  height: 30px;
+  width: 7.5px;
+  top: 30px;
+  left: 70%;
+  translate: -50% 0;
+  rotate: -45deg;
+  border-radius: 5px;
+}
+.rightArm {
+  height: 30px;
+  width: 7.5px;
+  top: 30px;
+  left: 15%;
+  translate: 50% 0;
+  rotate: 45deg;
+  border-radius: 5px;
+}
+
+.leftLeg {
+  height: 30px;
+  width: 7.5px;
+  top: calc(100% - 30px);
+  left: 70%;
+  translate: -50% 0;
+  rotate: -45deg;
+  border-radius: 5px;
+}
+
+.rightLeg {
+  height: 30px;
+  width: 7.5px;
+  top: calc(100% - 30px);
+  left: 15%;
+  translate: 50% 0;
+  rotate: 45deg;
+  border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+.characterForm {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 200px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+}
+
+.inputContainer label {
+  text-align: left;
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+}
