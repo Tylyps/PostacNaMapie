@@ -10,3 +10,9 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+#root > p {
+  box-shadow: 0 0 5px #0af, 0 0 15px #0af;
+  border-radius: 10px;
+  padding: 5px;
+}

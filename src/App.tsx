@@ -4,10 +4,18 @@ import GameMap from "./components/GameMap/GameMap";
 
 function App() {
   return (
-    <main>
-      <CharacterForm />
-      <GameMap />
-    </main>
+    <>
+      <main>
+        <CharacterForm />
+        <GameMap />
+      </main>
+      <p>
+        To move character use arrows keys and make sure you don't focus any
+        input.
+        <br />
+        (focused input have blue shadow like this element)
+      </p>
+    </>
   );
 }
 

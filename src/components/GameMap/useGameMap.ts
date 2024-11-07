@@ -7,7 +7,8 @@ const useGameMap = () => {
 
   useEffect(() => {
     const handlePositionChange = (ev: KeyboardEvent) => {
-      //If user is focusing input, character should not move so exit function
+      //If user is focusing input, to avoid double move insertion caret and player character,
+      //character should not move so exit function
       const element = ev.target as HTMLElement;
       if (element.tagName === "INPUT") return;
 
